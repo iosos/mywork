@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home {
+}
+
+.home .caption {
+ 
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    background-image:url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 95vh;
+
+
+}
+.home .caption .navbar{
+    position: fixed;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+
+}
+.home .caption .navbar img{
+    float: left;
+    width: 170px;
+    height: auto;
+    padding: 20px 0 0 20px;
+}
+.home .caption .navbar ul{
+    padding-top: 20px;
+    padding-left: 70%;
+
+}
+.home .caption .navbar li{
+    margin: 2%;
+    list-style: none;
+    float: left;
+}
+.home .caption h1{
+
+    font-size: 70px;
+    font-family: Alegreya,sans-serif,monospace;
+    margin-top: 7%;
+}
+.home .caption .slogan {
+    font-size: 24px;
+    color: #CCCCCC;
+
+}
+.home .caption p  {
+    padding-top: 9%;
+    color: #CCCCCC;
+
+}
+
+.home .caption .slogan button{
+    font-size: 16px;
+    color: #fff;
+    margin: 0 0 0 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+ .btn1{
+    background-color: #8e7754;
+   border-style: hidden;
+}
+ .btn2{
+    background-color: transparent;
+    border-color: #fff;
+    border-style: solid;
+}
+.home .mid-sec,.baking,.contact {
+    color: #686868;
+    background-color: #fff;
+    size: 100% 100%;
+    padding: 40px 40px;
+    overflow: hidden;
+    
+}
+.home .mid-sec img {
+    width: 40%;
+    float: left;
+    margin: 0% 5% 0 5%;
+
+}
+
+.home .mid-sec h2 {
+    text-align: center;
+    font-family: Alegreya,sans-serif,monospace;
+    color: #303030;
+    margin-top: 5%;
+
+}
+.home .mid-sec p{
+    margin: 0 0% 0 7%;
+    font-family: Alegreya sans,sans-serif,monospace;
+    text-align: center;
+    line-height: 30px;
+
+
+}
+.home .mid-sec li p{
+    text-align: left;
+    line-height: 20px;
+    padding-left: 10%;
+    margin: 3% 0% 0 7%;
+
+}
+.home .mid-sec ul {
+    list-style-type: none;
+}
+.home .low-sec {
+
+    color: #686868;
+    background-color: #f8f8f8;
+    overflow: hidden;
+    
+}
+.home .low-sec img {
+    width: 40%;
+    float: right;
+    margin: 0% 5% 5% 5%;
+}
+.home .low-sec p{
+    margin: 20% 0 0 0;
+    text-align: center;
+    line-height: 20px;
+
+}
+.home .low-sec,.baking h2 {
+    text-align: center;
+    font-family: Alegreya,sans-serif,monospace;
+    color: #303030;
+    padding: 5% 0 0 0;
+
+  
+
+}
+.home .low-sec p {
+    font-family: Alegreya sans,sans-serif,monospace;
+    margin: 3% 0 0 5%;
+}
+.home .baking {
+    overflow: hidden;
+    line-height: 40px;
+
+}
+.home .baking-sub h4 {
+    text-align: center;
+    font-family: Alegreya,sans-serif,monospace;
+    color: #303030;
+    margin: 0%;
+}
+.home .baking-sub {
+    width:33% ;
+    float: left;
+
+}
+.home .baking-sub img,p {
+width: 90%;
+text-align: center;
+margin: 0 0 0 5%;
+font-family: Alegreya sans,sans-serif,monospace;
+color: #686868;
+
+}
+.home .contact {
+    background-color: #f8f8f8;
+    size: 100% 100%;
+    overflow: hidden;
+
+
+}
+.home .contact-info{
+    width: 50%;
+    text-align: center;
+    padding-top: 4%;
+    float: left;
+
+
+]}
+.home .contact-info p{
+    padding-top: 2%;
+    line-height: 30px;
+
+
+]}
+.home .contact-info p li{
+    padding-top: 5%;
+    line-height: 25px;
+
+]}
+.home .contact-details{
+    padding: 5% 0 0 5%;
+    line-height: 40px;
+    text-align: left;
+]}
+.home .footer h3{
+    color: #fff;
+    font-family: Alegreya,sans-serif,monospace;
+
+}
+.home .footer {
+    padding: 2%;
+    overflow: hidden;
+    background-color: #403d38;
+    color: #686868;
+    list-style: none;
+    line-height: 20px;
+    font-size: 20px;
+}
+.home .footer li{
+    padding: 2%;
+    background-color: #403d38;
+    color: #686868;
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+}
+.home .footer a{
+    color: #686868;
+}
+.home .footer .about-us{
+    width: 25%;
+    float: left;
+
+}
+.home .footer .special{
+    width: 25%;
+    float: left;
+
+}
+.home .footer .opening-h{
+    width: 25%;
+    float: left;
+
+}
+
+.home .footer .cont-det{
+    width: 25%;
+    float: left;
+
+}
+.home .bottom {
+    background-color: #353330;
+    text-align: center;
+    height: 150px;
+    padding-top:20px;
+}
+.home .bottom img{
+    width: 200px;
+}
+.home .bottom p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding-top: 10px;
+}
