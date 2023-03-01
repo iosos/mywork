@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./css/style.css"/>
+    </head>
+    <title>Assignment 7 - JS problems</title>
+    <body>
+        <div class="container">
+            <h1 class="text-center my-5">Assignemnt 7 Solution - Osama Ali</h1>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="">Problem 1 :Write a program that allow to user enter number then print it</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="number" id="p1" name="prnt-num" class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem1()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p1-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 2: Write a program that take number from user then print yes if that number can divide by 3
+                            and 4 otherwise print no</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="number" id="p2"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem2()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p2-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 3: Write a program that allows the user to insert 2 integers then print the max</h2>
+                        <h5 class="my-3">Please enter first number:</h5>
+                        <input type="number" id="p3-first"  class="form-control my-3" placeholder="enter first number here"/>
+                        <h5 class="my-3">Please enter second number:</h5>
+                        <input type="number" id="p3-second" class="form-control my-3" placeholder="enter second number here"/>
+
+                        <button class=" btn btn-primary my-3" onclick="problem3()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p3-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 4: Write a program that allows the user to insert an integer then print negative if it is
+                            negative number otherwise print positive.</h2>
+                        <h5 class="my-3">Please enter  number:</h5>
+                        <input type="number" id="p4"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem4()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p4-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 5: Write a program that take 3 integers from user then print the max element
+                            and the min element.</h2>
+                        <h5 class="my-3">Please enter first number:</h5>
+                        <input type="number" id="p5-first"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter second number:</h5>
+                        <input type="number" id="p5-second"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter third number:</h5>
+                        <input type="number" id="p5-third"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem5()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p5-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 6: Write a program that allows the user to insert integer number then
+                            check If a number is oven or odd</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="number" id="p6"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem6()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p6-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 8: Write a program that take character from user then if it is vowel chars (a,e,I,o,u)
+                            then print vowel otherwise print consonant</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="text" id="p8"  class="form-control my-3" placeholder="enter your letters here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem8()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p8-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 9: Write a program that allows user to insert integer then print all numbers between 1 to
+                            that number</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="number" id="p9"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem9()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p9-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 10: Write a program that allows user to insert integer then print all numbers between 1 to
+                            that number</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="number" id="p10"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem10()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p10-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 11: Write a program that allows to user to insert number then print all even numbers
+                            between 1 to this number</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="number" id="p11"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem11()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p11-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 12: Write a program that take two integers then print the power</h2>
+                        <h5 class="my-3">Please enter first number:</h5>
+                        <input type="number" id="p12-num"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter power number:</h5>
+                        <input type="number" id="p12-power"  class="form-control my-3" placeholder="enter power number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem12()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p12-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 12 Repeated: Write a program to enter marks of five subjects and calculate total, average and
+                            percentage.</h2>
+                        <h5 class="my-3">Please enter first number:</h5>
+                        <input type="number" id="p12r-num1"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter second number:</h5>
+                        <input type="number" id="p12r-num2"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter third number:</h5>
+                        <input type="number" id="p12r-num3"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter fourth number:</h5>
+                        <input type="number" id="p12r-num4"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter fifth number:</h5>
+                        <input type="number" id="p12r-num5"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem12r()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p12r-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 13: Write a program to input month number and print number of days in that
+                            month</h2>
+                        <h5 class="my-3">Please enter month number:</h5>
+                        <input type="number" id="p13"  class="form-control my-3" placeholder="enter month number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem13()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p13-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Write a program to input marks of five subjects
+                            Physics, Chemistry, Biology, Mathematics and Computer
+                            , Find percentage and grade.</h2>
+                        <h5 class="my-3">Physics:</h5>
+                        <input type="number" id="p14-num1"  class="form-control my-3" placeholder="please enter exam score"/>
+                        <h5 class="my-3">Chemistry:</h5>
+                        <input type="number" id="p14-num2"  class="form-control my-3" placeholder="please enter exam score"/>
+                        <h5 class="my-3">Biology:</h5>
+                        <input type="number" id="p14-num3"  class="form-control my-3" placeholder="please enter exam score"/>
+                        <h5 class="my-3">Mathematics:</h5>
+                        <input type="number" id="p14-num4"  class="form-control my-3" placeholder="please enter exam score"/>
+                        <h5 class="my-3">Computer:</h5>
+                        <input type="number" id="p14-num5"  class="form-control my-3" placeholder="please enter exam score"/>
+                        <button class=" btn btn-primary my-3" onclick="problem14()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p14-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 15: Write a program to print total number of days in month</h2>
+                        <h5 class="my-3 text-info text-center">Please refer to problem 13 (already done)</h5>
+                       
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 16: Write a program to check whether an alphabet is vowel or consonant</h2>
+                        <h5 class="my-3">Please enter your letter:</h5>
+                        <input type="text" id="p16"  class="form-control my-3" placeholder="enter your letters here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem16()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p16-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 17: Write a program to find maximum between two numbers</h2>
+                        <h5 class="my-3">Please enter first number:</h5>
+                        <input type="text" id="p17-first"  class="form-control my-3" placeholder="enter first number here"/>
+                        <h5 class="my-3">Please enter second number:</h5>
+                        <input type="text" id="p17-second"  class="form-control my-3" placeholder="enter second number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem17()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p17-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 18: Write a program to check whether a number is even or odd</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="number" id="p18"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem18()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p18-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 19: Write a program to check whether a number is positive or negative or zero</h2>
+                        <h5 class="my-3">Please enter your number:</h5>
+                        <input type="number" id="p19"  class="form-control my-3" placeholder="enter your number here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem19()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p19-result"></h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="">Problem 20: Write a program to create Simple Calculator</h2>
+                        <h5 class="my-3">Please enter first number:</h5>
+                        <input type="number" id="p20-first"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter second number:</h5>
+                        <input type="number" id="p20-second"  class="form-control my-3" placeholder="enter your number here"/>
+                        <h5 class="my-3">Please enter arethmatic operation:</h5>
+                        <input type="text" id="p20-proc"  class="form-control my-3" placeholder="enter your operation here"/>
+                        <button class=" btn btn-primary my-3" onclick="problem20()">Submit</button>
+                        <h5 class="my-3 text-danger text-center" id="p20-result"></h5>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <script src="./main.js"></script>
+    </body>
+</html>
